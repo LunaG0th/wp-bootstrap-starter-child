@@ -1,0 +1,187 @@
+/*
+Theme Name: WP Bootstrap Starter Child
+Theme URI: https://afterimagedesigns.com/wp-bootstrap-starter/
+Author: Luna
+Author URI:
+Template: wp-bootstrap-starter
+Version: 0.1
+Description:  wp-bootstrap-starter child theme
+Version: 3.1.0
+*/
+@import url("../wp-bootstrap-starter/style.css");
+/* @import url("../wp-bootstrap-starter/woocommerce/style.css"); */
+
+
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body {
+  background-color: #fdfdfd;
+}
+
+h1, h2, h3, h4, h5, h6, {
+  color: #db5427;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-smooth: auto;
+}
+
+.woocommerce-loop-product__title, p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-smooth: auto;
+}
+
+a {
+  font-weight: 300;
+  color: #54595f;
+}
+
+a:hover {
+    color: #3b3b3b;
+}
+
+h2.woocommerce-loop-product__title
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
+    padding: .5em 0;
+    margin: 0;
+    font-size: 0.8em;
+    color: #54595f;
+}
+
+h1.entry-title {
+    font-size: 1.2rem;
+    border-bottom: 1px solid #eaecef;
+}
+.woocommerce div.product .product_title  {
+  padding-bottom: 10px;
+}
+
+.woocommerce ul.products li.product .price {
+    color: #db5427;
+    display: block;
+    font-weight: 400;
+    margin-bottom: .5em;
+    font-size: .857em;
+}
+
+/* Button */
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button  {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 300;
+    border-radius: 3px;
+    left: auto;
+    color: #54595f;
+    background-color: transparent;
+    border: 1px solid #d3ced2;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+    background-color: rgba(232, 85, 85, 0.5);
+    color: #ffff;
+  }
+
+  .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+      background-color: transparent;
+      color: #54595f;
+      -webkit-font-smoothing: antialiased;
+      margin-left: 2px;
+  }
+  .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: rgba(232, 85, 85, 0.8);
+    color: #fff;
+}
+
+.woocommerce span.onsale {
+    background-color: #db5427;
+    color: #fff;
+}
+
+/* Image Hover State */
+
+li.product a img:hover  {
+  max-width: none;
+	width: -webkit-calc(100% + 25px);
+	width: calc(100% + 25px);
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,-10px, 0);
+	transform: translate3d(0,-10px,0);
+}
+
+.woocommerce ul.products li.product a img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 1em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.banner-box{
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+}
+
+element.style {
+    width: 100%;
+    left: -396.5px;
+}
+
+/* footer */
+
+#footer-widget{
+  background-color: #f8f9fa;
+  padding-top: 2rem;
+}
+
+section#text-4  a {
+    padding: .5rem 1rem;
+    width: 100%;
+    color: #54595f;
+}
+
+section#text-4  a:hover {
+    background-color: #eee;
+    text-decoration: none;
+    padding: .5rem 1rem;
+}
+
+ section.widget a, h3.widget-title {
+  color: #54595f;
+}
+
+aside#secondary  {
+  color: #54595f;
+}
+
+.sm-icon a {
+  display: inline;
+  width: 100%;
+  font-size: 20px;
+  opacity: 0.7;
+  padding: .5rem 1rem;
+}
+
+.sm-icon  a:hover {
+    width: 100%;
+    background-color: #eee;
+    text-decoration: none;
+    padding: .5rem 1rem;
+}
